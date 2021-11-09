@@ -5,16 +5,27 @@
 </div>
 
 <script>
-  var mymap = L.map("map").setView([51.505, -0.09], 13);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  }).addTo(mymap);
+  let mymap = L.map("map").setView([3.3189, -121.412], 5);
+  const tileUrl="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+  const attribution= '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+  L.tileLayer(tileUrl, {attribution}).addTo(mymap);
 </script>
 
 <style>
   #map {
     height: 500px;
-    width: 500px;
+    width: 800px;
+    z-index: 0;
   }
+
+  .map-container {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.markerImage {
+  border-radius: 50%;
+}
 </style>
+<script src="/assets/js/marker.js"></script>
