@@ -1,0 +1,15 @@
+#map {
+  height: 500px;
+  width: 800px;
+  z-index: 0;
+}
+
+.map-container {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.markerImage {
+  border-radius: 50%;
+}
