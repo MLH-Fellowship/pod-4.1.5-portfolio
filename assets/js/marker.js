@@ -9,7 +9,7 @@ let podMembersData = [
     city: "Sidhi",
     country: "India",
     image: "shikhar.jpeg"
-  },{
+  }, {
     name: "Sumit Shinde",
     lat: 18.9754415,
     lng: 73.0309219,
@@ -27,6 +27,13 @@ podMembersData.map(memberData => {
     popupAnchor: [-3, -76], // point from which the popup should open relative to the iconAnchor
     className: "markerImage",
   });
-  
-  L.marker([memberData.lat, memberData.lng], { icon: markerIcon }).addTo(map);
+
+  L.marker([memberData.lat, memberData.lng], { icon: markerIcon })
+    .addTo(map)
+    .bindPopup(
+      `<html>
+       <h5><b>${memberData.name}</b></h5>
+       <span><b>${memberData.city}, ${memberData.country}</b></span>
+       </html>`
+    )
 });
