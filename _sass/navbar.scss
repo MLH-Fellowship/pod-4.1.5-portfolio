@@ -50,6 +50,12 @@ nav ul li a {
     text-transform: uppercase;
 }
 
+nav img {
+    width: 25%;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
 a.active,a:hover {
     background: #1b9bff;
     transition: .5s;
