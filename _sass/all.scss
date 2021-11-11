@@ -4,6 +4,18 @@
 @import 'profile';
 @import 'page';
 
+[data-theme="dark"] {
+  --primary-color: #8682ff;
+  --secondary-color: #707b98;
+  --font-color: #f0f0ff;
+  --bg-color: #070711;
+  --heading-color: #96a4ca;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+      background-color: #000 !important;
+  }
+}
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -30,10 +42,12 @@
 
 
 body {
-    background-color: #f5f5f9;
+    background-color: var(--bg-color);
+    color: var(--font-color);
     margin-bottom: 50px;
 }
 h2 {
+    color: var(--secondary-color);
     margin-bottom: 20px;
     margin-top: 20px;
     font-weight: 700;
@@ -41,6 +55,7 @@ h2 {
 }
 
 .card {
+    color: var(--secondary-color);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -52,27 +67,31 @@ h2 {
 }
 
 a {
-    color: black;
+  color: var(--secondary-color);
 }
 
 .info {
     p {
+        color: var(--secondary-color);
         margin-top: 5px;
         margin: 0px;
         text-align: left;
     }
 
     .title {
+        color: var(--secondary-color);
         font-size: 500;
         font-weight: bold;
     }
 
     .location, .description {
+        color: var(--secondary-color);
         font-size: medium;
         font-weight: 400;
     }
 
     .dates {
+        color: var(--secondary-color);
         font-size: small;
         color: #404040;
     }
@@ -88,3 +107,11 @@ a {
         width: 100%;
     }
 }
+:root {
+  --primary-color: #302AE6;
+  --secondary-color: #536390;
+  --font-color: #424242;
+  --bg-color: #fff;
+  --heading-color: #292922;
+}
+
