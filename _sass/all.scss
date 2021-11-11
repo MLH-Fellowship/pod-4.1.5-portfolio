@@ -4,6 +4,13 @@
 @import 'profile';
 @import 'page';
 
+:root {
+  --primary-color: #251fe7;
+  --secondary-color: #636e8a;
+  --font-color: #2d2d2d;
+  --bg-color: #fff;
+  --heading-color: #2f2f26;
+}
 [data-theme="dark"] {
   --primary-color: #8682ff;
   --secondary-color: #707b98;
@@ -107,11 +114,5 @@ a {
         width: 100%;
     }
 }
-:root {
-  --primary-color: #302AE6;
-  --secondary-color: #536390;
-  --font-color: #424242;
-  --bg-color: #fff;
-  --heading-color: #292922;
-}
+
 
