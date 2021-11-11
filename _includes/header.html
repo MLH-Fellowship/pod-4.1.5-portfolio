@@ -33,7 +33,7 @@
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       const darkThemeSwitch = document.querySelector(
-        '.theme-switch-input input[type="checkbox"]'
+        '.theme-switch input[type="checkbox"]'
       );
 
       function switchingTheme(e) {
@@ -42,7 +42,7 @@
           : document.documentElement.setAttribute("data-theme", "light");
       }
 
-      console.log("to mode:", darkThemeSwitch);
+      
       darkThemeSwitch.addEventListener("change", switchingTheme, false);
     });
   </script>
