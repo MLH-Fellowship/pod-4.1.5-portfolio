@@ -1,143 +1,15 @@
-- name: Ricardo Prins 
-  img: ricardo.jpg
-  location: Utah, USA
-  linkedin: https://github.com/ricardoprins/nosocialmedia
-  github: https://github.com/ricardoprins/
-  resume: https://github.com/ricardoprins/nosocialmedia
-  twitter: https://github.com/ricardoprins/nosocialmedia
+- name: Will
+  img: logo.jpg
+  location: London, UK
 
-- name: Gustavo Elizarraras
-  img: gustavo.jpg
-  location: Mexico City, Mexico
-  linkedin: https://www.linkedin.com/in/gelizarraras/
-  github: https://github.com/GustavoElizarraras
-  resume: https://drive.google.com/file/d/1drIjW6MXUrSPJ6fl2Ifsb01We7LcYFao/view?usp=sharing
-  twitter: https://twitter.com/AGElizarraras
+- name: Amanda
+  img: amanda.jpg
+  location: New York City, USA
 
-- name: Justin Nguyen
-  img: justin.jpg
-  location: California, USA
-  linkedin: https://www.linkedin.com/in/justin-nguyen-cs/
-  github: https://github.com/justbustin
-  resume: 
-  twitter: 
+- name: Aaron
+  img: aaron.jpg
+  location: London, UK
 
-- name: Mahera Furniturewala
-  img: mahera.jpg
-  location: Mumbai, India
-  linkedin: https://www.linkedin.com/in/mahera-furniturewala/
-  github: https://github.com/MaheraFurniturewala
-  resume: 
-  twitter: https://twitter.com/Mahera_06
-
-- name: Juan Garcia
-  img: juan.jpg
-  location: California, USA
-  linkedin: https://www.linkedin.com/in/jgarcia45/
-  github: https://github.com/jgarcia45
-  resume: http://app.rezi.ai/s/09aroDdgsFPTAWV3LLwB
-  twitter: https://twitter.com/JuansG4
-
-- name: Yididya Sugamo
+- name: Swift
   img: swift.jpg
-  location: Addis Ababa, Ethiopia
-  linkedin: 
-  github: 
-  resume: 
-  twitter: 
-
-- name: Daman Arora
-  img: daman.jpg
-  location: Ottawa, Canada
-  linkedin: https://www.linkedin.com/in/daman-a-3679332a
-  github: https://github.com/Damans227
-  resume: 
-  twitter: https://twitter.com/DaemonSets
-
-- name: Rida Mumtaz
-  img: rida.jpg
-  location: Riyadh, Saudi Arabia
-  linkedin: https://www.linkedin.com/in/rida-mumtaz-0603
-  github: https://github.com/rida-hash
-  resume: https://ridamumtaz.netlify.app/
-  twitter: https://twitter.com/hitswithri
-
-- name: Eshika Khandelwal
-  img: eshika.jpg
-  location: India
-  linkedin: https://www.linkedin.com/in/eshika-khandelwal/
-  github: https://github.com/esh04
-  resume: 
-  twitter: https://twitter.com/esh_04
-
-- name: Abdulrahman Mamdouh
-  img: abdulrahman.jpg
-  location: Egypt
-  linkedin: https://www.linkedin.com/in/abdumamdouh/
-  github: https://github.com/abdumamdouh/
-  resume: https://drive.google.com/file/d/1H9Q4CkfPE85OxjqIpEYU3strcxtv4VlI/view?usp=sharing
-  twitter: https://twitter.com/abdumamdouhh
-
-- name: Akshat Akshat
-  img: akshat.jpg
-  location: India
-  linkedin: https://www.linkedin.com/in/akshat-akshat
-  github: https://github.com/akshatdalton
-  resume: https://drive.google.com/file/d/1AhtAgnsJu6rsCz6bQMkN7EMX7qRbzf3Z/view?usp=sharing
-  twitter: https://twitter.com/AkshatDalton2
-
-- name: Kalyan Reddy Chirla
-  img: kalyan.jpg
-  location: Leeds, UK
-  linkedin: https://www.linkedin.com/in/kalyanchirla
-  github: https://github.com/kalyanchirla
-  resume: 
-  twitter:
-
-- name: Pratheek U
-  img: pratheek.jpg
-  location: Bangalore, India
-  linkedin: https://www.linkedin.com/in/pratheek-u-7769a6190/
-  github: https://github.com/P0intMaN
-  resume: 
-  twitter:
-
-- name: Gaurav Das
-  img: gaurav.jpg
-  location: Assam, India
-  linkedin: 
-  github: 
-  resume: 
-  twitter:
-
-- name: Sumit Shinde
-  img: sumit.jpg
-  location: Mumbai, India
-  linkedin: https://www.linkedin.com/in/sumit-shinde-2608/
-  github: https://github.com/sumitshinde2608
-  resume: 
-  twitter: https://twitter.com/sumitshinde2608
-
-- name: Junhee Park
-  img: junhee.jpg
-  location: California, USA
-  linkedin: 
-  github: https://github.com/junhee20park
-  resume: 
-  twitter:
-
-- name: Mahmoud Ali
-  img: mahmoud.jpg
-  location: Cairo, Egypt
-  linkedin: https://www.linkedin.com/in/mahmoud-ali-7028051b5/
-  github: https://github.com/MahmoudMuhammedAli
-  resume: https://drive.google.com/file/d/1dq6q-PiP3hMV6-IoT_VKMK_-m5ZFOppt/view?usp=sharing
-  twitter:
-
-- name: Shikhar Shukla
-  img: shikhar.jpg
-  location: Sidhi, India
-  linkedin: https://www.linkedin.com/in/shikhar01/
-  github: https://github.com/Shikhar15606
-  resume: 
-  twitter: https://twitter.com/ShikharShukla_
+  location: New York City, USA

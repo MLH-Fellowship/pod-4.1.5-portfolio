@@ -1,34 +1,10 @@
-<head>
-    <meta charset="utf-8">
-    <title>Responsive Navbar</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>
-        $(function () {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 200) {
-                    $("nav img").show();
-                    $("nav .logo").hide();
-                } else {
-                    $("nav img").hide();
-                    $("nav .logo").show();
-                }
-            })
-        });
-    </script>
-</head>
-<body>
-    <nav class="sticky">
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">MLH Fellowship</label>
-        <img src="./assets/img/mlh-prep.png" style="display: none;" />
-        <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Feedback</a></li>
-        </ul>
-    </nav>
-</body>
+<header class="nav-bar">
+    <div class="nav-content">
+        <a href="{{ '/' | relative_url }}">
+            <div class="nav-logo">
+                <img src="./assets/img/mlh-prep.png" />
+            </div>
+        </a>
+        
+    </div>
+</header>
