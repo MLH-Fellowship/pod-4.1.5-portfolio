@@ -5,22 +5,24 @@
 @import 'page';
 
 :root {
-  --primary-color: #251fe7;
-  --secondary-color: #636e8a;
-  --font-color: #2d2d2d;
-  --bg-color: #fff;
+  //--primary-color: #251fe7;
+  --secondary-color: #27242c;
+  --font-color: #181719;
+  --bg-color: #8a8a8e;
   --heading-color: #2f2f26;
+  --body-color: #f4f2f7;
 }
 [data-theme="dark"] {
-  --primary-color: #8682ff;
-  --secondary-color: #707b98;
+  //--primary-color: #8682ff;
+  --secondary-color: #ffffff;
   --font-color: #f0f0ff;
   --bg-color: #070711;
   --heading-color: #96a4ca;
+  --body-color: #121223;
 }
 @media (prefers-color-scheme: dark) {
   body {
-      background-color: #121223 !important;
+    background-color: var(--body-color) !important;
   }
 }
 .card-container {
