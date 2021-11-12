@@ -1,19 +1,20 @@
 :root {
-    //--primary-color: #251fe7;
-    --secondary-color: #27242c;
-    --font-color: #181719;
-    --bg-color: #8a8a8e;
-    --heading-color: #2f2f26;
-    --body-color: #f4f2f7;
+    --primary-color: #133667;
+    --secondary-color: #212529;
+    --font-color: #212529;
+    --bg-color: #ffffff;
+    --heading-color: #133667;
+    --body-color: #f5f5f9;
   }
   [data-theme="dark"] {
     //--primary-color: #8682ff;
     --secondary-color: #ffffff;
     --font-color: #f0f0ff;
     --bg-color: #070711;
-    --heading-color: #96a4ca;
+    --heading-color: #070711;
     --body-color: #121223;
   }
+
 .theme-switch-wrapper {
     display: flex;
     align-items: center;
@@ -72,7 +73,7 @@ input:checked + .slider:before {
 .nav-bar {
     width: 100%;
     //background-color: #133667;
-    background-color: var(--bg-color);
+    background-color: var(--heading-color);
     font-family: "Poppins", serif;
     font-weight: 700 !important;
     padding-top: 10px;
@@ -97,7 +98,7 @@ input:checked + .slider:before {
 
 .nav-logo img {
     width: 200px;
-    color: var(--secondary-color);
+    color: var(--heading-color);
 }
 
 .nav-content nav {
