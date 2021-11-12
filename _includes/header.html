@@ -30,6 +30,24 @@
     crossorigin="anonymous"
   ></script>
 
+
+ <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const darkThemeSwitch = document.querySelector(
+        '.theme-switch input[type="checkbox"]'
+      );
+
+      function switchingTheme(e) {
+        e.target.checked
+          ? document.documentElement.setAttribute("data-theme", "dark")
+          : document.documentElement.setAttribute("data-theme", "light");
+      }
+
+      
+      darkThemeSwitch.addEventListener("change", switchingTheme, false);
+    });
+  </script>
+
   <!-- Bootstrap CSS -->
   <link
     rel="stylesheet"

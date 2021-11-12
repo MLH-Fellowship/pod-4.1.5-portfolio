@@ -2,7 +2,10 @@
 layout: default
 ---
 
+{% include darkmode.html %}
+
 <div class="banner">
+
     <div class="container">
         <div class="logo">
             <a href="/">
@@ -12,9 +15,10 @@ layout: default
         <div class="title">
             {{ page.title }}
         </div>
+
     </div>
+    <div class="title">{{ page.title }}</div>
+  </div>
 </div>
 
-<div class="container page">
-    {{ content }}
-</div>
+<div class="container page">{{ content }}</div>

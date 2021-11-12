@@ -1,12 +1,35 @@
+:root {
+    --primary-color: #133667;
+    --secondary-color: #212529;
+    --font-color: #212529;
+    --bg-color: #ffffff;
+    --heading-color: #133667;
+    --body-color: #f5f5f9;
+  }
+  [data-theme="dark"] {
+    //--primary-color: #8682ff;
+    --secondary-color: #ffffff;
+    --font-color: #f0f0ff;
+    --bg-color: #070711;
+    --heading-color: #070711;
+    --body-color: #121223;
+  }
+
 .profile {
+
+    //background-color: #133667 !important;
+    background-color: var(--heading-color);
+
     background-image: url("https://static.planetminecraft.com/files/resource_media/screenshot/1922/5bd170bb4655992be36d6034b35224fd-1559136006.png") !important;
+
     text-align: center;
     height: 320px;
     margin-bottom: 50px;
     h1 {
         font-size: 50px;
         font-weight: 700;
-        color: white;
+        color: var(--font-color);
+        //color: white;
     }
     
     img {

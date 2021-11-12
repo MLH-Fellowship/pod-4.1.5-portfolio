@@ -6,6 +6,28 @@
 @import "map";
 @import 'footer';
 
+:root {
+  --primary-color: #133667;
+  --secondary-color: #212529;
+  --font-color: #212529;
+  --bg-color: #ffffff;
+  --heading-color: #133667;
+  --body-color: #f5f5f9;
+}
+[data-theme="dark"] {
+  //--primary-color: #8682ff;
+  --secondary-color: #ffffff;
+  --font-color: #f0f0ff;
+  --bg-color: #070711;
+  --heading-color: #070711;
+  --body-color: #121223;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--body-color) !important;
+  }
+}
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -31,58 +53,61 @@
 }
 
 body {
-  background-color: #f5f5f9;
-  margin-bottom: 50px;
+
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    margin-bottom: 50px;
 }
 h2 {
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-weight: 700;
-  text-align: center;
+    color: var(--heading-color);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-align: center;
 }
 
 .card {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 20px 30px;
-  background-color: white;
-  border-radius: 0.375rem;
-  padding: 1.5em;
-  font-size: 1.2em;
+    color: var(--font-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 30px;
+    background-color: var(--bg-color);
+    border-radius: .375rem;
+    padding: 1.5em;
+    font-size: 1.2em;
 }
 
 a {
-  color: black;
+  color: var(--secondary-color);
 }
 
 .info {
-  p {
-    margin-top: 5px;
-    margin: 0px;
-    text-align: left;
-  }
+    p {
+        color: var(--secondary-color);
+        margin-top: 5px;
+        margin: 0px;
+        text-align: left;
+    }
 
-  .title {
-    font-size: 500;
-    font-weight: bold;
-  }
+    .title {
+        color: var(--secondary-color);
+        font-size: 500;
+        font-weight: bold;
+    }
 
-  .location,
-  .description {
-    font-size: medium;
-    font-weight: 400;
-  }
+    .location, .description {
+        color: var(--secondary-color);
+        font-size: medium;
+        font-weight: 400;
+    }
 
-  .socmedia {
-    font-size: medium;
-    font-weight: 400;
-  }
+    .dates {
+        color: var(--secondary-color);
+        font-size: small;
+        color: #404040;
+    }
 
-  .dates {
-    font-size: small;
-    color: #404040;
-  }
 }
 
 .icon {
@@ -111,6 +136,7 @@ table {
   border-collapse: collapse; 
 }
 
+
 th, td {
   padding: 16px 24px;
   text-align: center;
@@ -134,3 +160,4 @@ tbody {
     background-color: #e9ecef;
   }
 }
+
