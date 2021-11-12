@@ -31,7 +31,7 @@ body {
 .banner {
     padding: 20px 0px 50px 0px;
     height: 150px;
-    background-color: #1d539f;
+    background-color: var(--primary-color);
 }
 
 .banner .logo {
@@ -42,7 +42,7 @@ body {
 }
 
 .banner .title {
-    color: white;
+    color: var(--font-color);
     font-size: 50px;
     font-weight: 700;
 }
@@ -55,61 +55,61 @@ body {
 .page h1 {
     text-align: left !important;
     font-weight: 800 !important;
-    color: black;
+    color: var(--font-color);
     margin-bottom: 0.7em;
 }
 
 .page h2 {
     text-align: left !important;
     font-weight: 800 !important;
-    color: black;
+    color: var(--font-color);
     margin-bottom: 0.5em;
 }
 
 .page h3 {
     font-weight: 600 !important;
     text-align: left !important;
-    color: black;
+    color: var(--font-color);
     font-size: 1.3rem;
 }
 
 .page h4 {
     font-weight: 600 !important;
     text-align: center !important;
-    color: black;
+    color: var(--font-color);
 }
 
 .page p {
-    color: black;
+    color: var(--font-color);
     font-weight: 500;
 }
 
 .page td {
-    color: black;
+    color: var(--font-color);
 }
 
 .page th {
-    color: black;
+    color: var(--font-color);
 }
 
 .page li {
-    color: black;
+    color: var(--font-color);
 }
 
 .page a {
-    color: #0f90fe;
+    color: var(--primary-color);
 }
 
 .page a:hover {
-    color: #0f90fe;
+    color: var(--secondary-color);
 }
 
 .page code {
-    color: #17a2b8;
+    color: var(--font-color);
 }
 
 hr {
-    background-color: black;
+    background-color: var(--secondary-color);
     padding: 1px;
     margin-top: 1em !important;
     margin-bottom: 1em !important;
@@ -130,7 +130,7 @@ hr {
     }
 
     .banner .title {
-        color: white;
+        color: var(--font-color);
         font-size: 30px;
         font-weight: 700;
     }
