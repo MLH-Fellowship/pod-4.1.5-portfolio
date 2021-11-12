@@ -3,6 +3,7 @@
 @import "navbar";
 @import "profile";
 @import "page";
+@import "map";
 
 .card-container {
   display: grid;
@@ -71,6 +72,7 @@ a {
     font-size: medium;
     font-weight: 400;
   }
+
   .socmedia {
     font-size: medium;
     font-weight: 400;
