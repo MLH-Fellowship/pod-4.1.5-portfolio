@@ -1,12 +1,31 @@
+:root {
+    //--primary-color: #251fe7;
+    --secondary-color: #27242c;
+    --font-color: #181719;
+    --bg-color: #8a8a8e;
+    --heading-color: #2f2f26;
+    --body-color: #f4f2f7;
+  }
+  [data-theme="dark"] {
+    //--primary-color: #8682ff;
+    --secondary-color: #ffffff;
+    --font-color: #f0f0ff;
+    --bg-color: #070711;
+    --heading-color: #96a4ca;
+    --body-color: #121223;
+  }
+
 .profile {
-    background-color: #133667 !important;
+    //background-color: #133667 !important;
+    background-color: var(--bg-color);
     text-align: center;
     height: 320px;
     margin-bottom: 50px;
     h1 {
         font-size: 50px;
         font-weight: 700;
-        color: white;
+        color: var(--font-color);
+        //color: white;
     }
     
     img {
