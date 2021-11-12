@@ -2,7 +2,28 @@
 <script src="assets/owl.carousel.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function(){
-  $(".owl-carousel").owlCarousel({loop: true, items:4});
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        900:{
+            items:3,
+            nav:false
+        },
+        1100:{
+            items:4,
+            nav:true,
+        }
+    }
+  });
 });
 </script>
 <h2>Meet the Pod</h2>
