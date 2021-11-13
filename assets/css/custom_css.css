@@ -23,3 +23,5 @@ i.fab:hover, i.fas:hover{transition: all .2s ease-in-out; box-shadow: 0 4px 2px 
 i.fab:active, i.fas:active{transform: scale(0.9); color:rgb(19, 57, 226); transform: rotate(-2deg)}
 
 h3 { margin-bottom: 20px; margin-top: 20px; font-size:1em; text-align: center; }
+
+.sm_icon_a:hover{color:black; background: transparent;}
