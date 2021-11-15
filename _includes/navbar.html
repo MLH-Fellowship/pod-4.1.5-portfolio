@@ -14,6 +14,14 @@
                 }
             })
         });
+        $(function() {
+        var url = window.location.href;
+        $("nav a").each(function() {
+            if (url === this.href) {
+                $(this).closest("a").addClass("active");
+            }
+        });
+    }); 
     </script>
 </head>
 <body>
@@ -25,10 +33,11 @@
         <label class="logo">MLH Fellowship</label>
         <img src="./assets/img/mlh-prep.png" style="display: none;" />
         <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Feedback</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/#1">About</a></li>
+            <li><a href="/#2">Contact</a></li>
+            <!-- <li><a href="/#">Feedback</a></li> -->
+            <li><a href="/blog">Blog</a></li>
         </ul>
     </nav>
 </body>

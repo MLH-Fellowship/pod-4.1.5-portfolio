@@ -1,0 +1,27 @@
+/* The main purpose of this custom css is to get responsive the social media icons
+ */
+.custom_card-container { display: flex; flex-wrap: nowrap; overflow-x: scroll; font-family: "Open Sans", sans-serif; }
+
+div::-webkit-scrollbar { display: none;}
+
+.custom_card {align-items: center; box-shadow: 0 7px 5px 0.2px rgba(37, 37, 37, 0.788); width: 16em; height: 22em; flex: 0 0 auto; margin: 1em 1em; background-color: white; border-radius: 0.675rem; padding: 1.5em; font-size: 1.2em; display: inline-block;}
+
+.custom_info p { margin-top: 5px; margin: 0px; text-align: center;}
+
+.custom_info .title { font-size: 500; font-weight: bold; }
+
+.custom_info .location, .custom_info .description { font-size: medium; font-weight: 400; }
+
+.sm_space {display: flex; justify-content: center;}
+  
+.sm_icon {margin: 5% 10%; width: 10%;}
+
+i.fab, i.fas{font-size: 2em;}
+
+i.fab:hover, i.fas:hover{transition: all .2s ease-in-out; box-shadow: 0 4px 2px -2px gray; transform: scale(1.2); color:rgb(255, 166, 0); }
+
+i.fab:active, i.fas:active{transform: scale(0.9); color:rgb(19, 57, 226); transform: rotate(-2deg)}
+
+h3 { margin-bottom: 20px; margin-top: 20px; font-size:1em; text-align: center; }
+
+.sm_icon_a:hover{color:black; background: transparent;}
