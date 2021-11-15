@@ -1,0 +1,30 @@
+---
+layout: default
+title: Blog
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+</head>
+{% include header.html %}
+
+<body>
+  {% include navbar.html %}
+  <div class="blogContainer">
+  <h1>Latest Posts</h1>
+  <div>
+    {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+    {% endfor %}
+  </div>
+  </div>
+  {% include footer.html %}
+</body>
+
+</html>
